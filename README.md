@@ -45,4 +45,10 @@ In order to enhance the readability, maintainability, and reusability of the cod
 ### 4. **Other Reusable Components:**
    - Components such as `Button`, `CircularProgress`, `AppIcon`, `AppTooltip`, `AppExtLink`, etc., which are reused across different parts of the application.
 
+# Why this code should be fragmented like this?
+
+## 1.Ease of Maintenance: Each custom hook or component addresses a specific concern, making it easier to understand, maintain, and update. Developers can focus on one piece of functionality at a time.
+## 2.Reusability: Modular code can be reused in different parts of the application, promoting consistency and reducing redundancy.
+## 3.Component Reusability: Components designed with a specific purpose can be reused across different parts of the application, maintaining a consistent look and feel.
+## 4.Code Maintenance: A modular structure facilitates ongoing maintenance, updates, and bug fixes. Changes are localized, minimizing the risk of unintended consequences. 
 
